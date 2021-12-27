@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\игорь\Desktop\create satellites.xml\unknown.py", line 247, in <module>
+    vp_start_gui()
+  File "C:\Users\игорь\Desktop\create satellites.xml\unknown.py", line 32, in vp_start_gui
+    top = Toplevel1 (root)
+  File "C:\Users\игорь\Desktop\create satellites.xml\unknown.py", line 204, in __init__
+    _img0 = tk.PhotoImage(file=photo_location)
+  File "C:\Users\игорь\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4064, in __init__
+    Image.__init__(self, 'photo', name, cnf, master, **kw)
+  File "C:\Users\игорь\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 4009, in __init__
+    self.tk.call(('image', 'create', imgtype, name,) + options)
+_tkinter.TclError: couldn't open "C:/Users/игорь/Desktop/create satellites.xml\./Desktop/create satellites.xml/satellites.png": no such file or directory
